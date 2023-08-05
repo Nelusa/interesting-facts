@@ -24,7 +24,14 @@ const FactsList = ({ facts, onSetFacts }: FactsListProps) => {
           No facts for this category yet! Create the first one ✌️
         </p>
       )}
-      <p>There are {facts.length} facts in the database.</p>
+      <p
+        style={{
+          textAlign: "center",
+          marginTop: "2rem",
+        }}
+      >
+        There are {facts.length} facts in the database.
+      </p>
     </section>
   );
 };
